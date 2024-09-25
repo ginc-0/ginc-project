@@ -289,11 +289,18 @@ http://www.templatemo.com/tm-503-newline
 
 
         <footer>
-          <p>Copyright &copy; 2023 Ginc Solutions
+          <p>Copyright &copy; Ginc Solutions
                                 
         	| Designed by <em>Georgekip</em></p>
         </footer>
-    
+    <footer>
+  <p>&copy; <span id="currentYear"></span> Your Company. All rights reserved.</p>
+</footer>
+
+<script>
+  // Get the current year
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
